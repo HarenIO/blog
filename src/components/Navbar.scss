@@ -1,0 +1,31 @@
+nav{
+  background-color: #0e141b;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  max-width: 80%;
+  margin: 1rem auto;
+  & .current {
+    color: rgb(109, 109, 224);
+    // text-decoration: underline;
+  }
+  & p{
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  & ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+   & a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+
+    &:hover{
+      text-decoration: underline;
+    }
+   }
+}
+}

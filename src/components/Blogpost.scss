@@ -1,0 +1,41 @@
+.card{
+  background-color: #1e262f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 1.2rem;
+  flex: 1 1 45%;
+  gap: 1rem;
+  border-radius: 8px;
+  min-width: 300px;
+  &:hover{
+    cursor: pointer;
+    .card-title{
+      color: rgb(109, 109, 224);
+    }
+  }
+
+  & .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  & .card-footer{
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    & .card-readmore{
+      color: white;
+      &:hover{
+        cursor: pointer;
+        
+        &::after{
+          content: " >>";
+          color: rgb(245, 221, 83);
+        }
+      }
+    }
+  }
+  
+}

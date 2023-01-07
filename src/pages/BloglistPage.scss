@@ -1,0 +1,38 @@
+.bloglist-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+
+  & .bloglist-options{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    & button{
+      background-color: #1e262f;
+      border: #1e262f solid 1px;
+      font-size: 1rem;
+      padding: 12px;
+      color: white;
+      border-radius: 4px;
+      &:hover{
+        cursor: pointer;
+        background-color: #262e38;
+        color: #42474e
+      } 
+    }
+    & .dropdown{
+        color: white;
+        width: 150px;
+      }
+  }
+}
+
+.blogposts{
+  border-top: 1px solid white;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}

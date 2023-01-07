@@ -1,0 +1,36 @@
+.blogpost-full{
+  color:white;
+  font-weight: 600;
+  word-wrap: break-word;
+  & .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    & h2{
+      font-size: 2rem;
+    }
+  }
+  & .text{
+    border-top: 1px solid white;
+    padding-top: 2rem;
+  }
+  & p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    white-space: pre-wrap;
+  }
+  & button{
+    background-color: #1e262f;
+    border: #1e262f solid 1px;
+    font-size: 1rem;
+    padding: 12px;
+    color: white;
+    border-radius: 4px;
+    &:hover{
+      cursor: pointer;
+      background-color: #262e38;
+    } 
+}
+}
